@@ -1,2 +1,2 @@
 # Poisson-Blending
-Image processing algorithm for image composition
+The Poisson blending algorithm is a technique used to seamlessly merge two images while maintaining smooth transitions. It involves solving a partial differential equation that enforces a gradient constraint between the source and target images at the blending boundary. By enforcing the Laplacian of the blended image to match that of the source, Poisson blending achieves natural and artifact-free image composition.
